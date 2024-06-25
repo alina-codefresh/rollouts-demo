@@ -40,15 +40,15 @@ jobs:
           # CF_PLATFORM_URL: https://app-staging.codefresh.io
           # CF_API_KEY: ${{secrets.CF_API_KEY_STAGING}}
           
-          CF_PLATFORM_URL: 'https://pre-prod.codefresh.io'
+          # CF_PLATFORM_URL: 'https://pre-prod.codefresh.io'
           # CF_API_KEY: ${{secrets.CF_API_KEY}}
           # CF_API_KEY: ${{secrets.CF_API_KEY_TEST}}
           # CF_API_KEY: ${{secrets.CF_API_KEY_FREE}}
-          CF_API_KEY: ${{secrets.CF_API_KEY_PRE_PROD}}
+          # CF_API_KEY: ${{secrets.CF_API_KEY_PRE_PROD}}
           
           # CF_RUNTIME_NAME: 'codefresh-onprem'
-          # CF_PLATFORM_URL: 'https://hermes-onprem-test.cf-op.com'
-          # CF_API_KEY: ${{secrets.CF_API_KEY_ONPREM}}
+          CF_PLATFORM_URL: 'https://hermes-onprem-test.cf-op.com'
+          CF_API_KEY: ${{secrets.CF_API_KEY_ONPREM}}
 
           # API key for authentication to Codefresh. !! Committing a plain text token is a security risk. We highly recommend using encrypted secrets. !!
           # Documentation - https://docs.github.com/en/actions/security-guides/encrypted-secrets
